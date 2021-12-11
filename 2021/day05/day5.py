@@ -38,5 +38,7 @@ def main():
     print(np.shape(np.where(grid > 1))[1])
 
 
+
+
 if __name__ == "__main__":
     main()
