@@ -120,9 +120,8 @@ def main():
     bits = "".join(C2B[c] for c in transmission)
     ast, remaing_bits = parse_bits(bits, 1, None)
     versions = extract_versions(ast)
-    print(versions)
-    print(sum(versions))
-    print(evaluate(ast))
+    print(f"{sum(versions) = }")
+    print(f"{evaluate(ast)[0] = }")
 
 
 
